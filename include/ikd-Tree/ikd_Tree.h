@@ -1,4 +1,5 @@
-#pragma once
+#ifndef IDK_TREE_H_
+#define IDK_TREE_H_
 #include <stdio.h>
 #include <queue>
 #include <pthread.h>
@@ -342,3 +343,5 @@ public:
 
 // template <typename PointType>
 // PointType KD_TREE<PointType>::zeroP = PointType(0,0,0);
+
+#endif /* IDK_TREE_H_ */
